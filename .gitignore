@@ -1,0 +1,23 @@
+# Python caches and local virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor temporary files
+*~
+*.swp
+*.swo
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# Generated HTML, source content and assets are intentionally tracked:
+# GitHub Pages serves the committed static files without running scripts/build.py.
